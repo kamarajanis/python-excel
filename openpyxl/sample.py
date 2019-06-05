@@ -58,8 +58,6 @@ for i in ws['A']:
 ##    for j in i:
 ##        print(j)
 
-for i in ws.rows:
-    print(i)
 
 
 

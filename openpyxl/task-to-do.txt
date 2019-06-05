@@ -1,2 +1,4 @@
 print paricular row values
 print particular column values
+
+storing the time getting from the system and write into the excel sheet
