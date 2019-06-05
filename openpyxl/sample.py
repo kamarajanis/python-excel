@@ -29,3 +29,40 @@ print("\n")
 #same for priting row speifiy 1 2 3 ....
 for i in ws['A']:
     print(i.value)
+
+#for printing rows values and column values
+#ws.rows and ws.columns
+
+##print("\n\n\n")
+##print("*********************************\n**************************")
+###here ws.rows print the tuple row by row
+##for i in ws.rows:            #same use ws,colums to print column and next column
+##    #here to get the row value
+##    for j in i:
+##        #it will print the value row by row
+##        print(j.value)
+
+
+
+##
+###to print the values
+###ws.values it will print all vallues row by row
+##print("*********************************\n**************************")
+##for i in ws.values:
+##    print(i)#that row is also a tuple
+##
+##print("*********************************\n**************************")
+##print("\n\n\n")
+##
+##for i in ws.values:
+##    for j in i:
+##        print(j)
+
+for i in ws.rows:
+    print(i)
+
+
+
+
+        
+    
