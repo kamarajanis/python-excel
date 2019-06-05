@@ -1,0 +1,2 @@
+print paricular row values
+print particular column values
